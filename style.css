@@ -1,17 +1,16 @@
-/* ========== VARIABLES ========== */
+
 :root {
-  --bg: #0b0d17;
+  --bg: #e9f0fa;
   --bg-soft: #0f1222;
   --surface: #121430;
-  --text: #e5e7eb;
+  --text: #000000;
   --muted: #b5b9c9;
   --primary: #7c5cff;
   --accent: #22d3ee;
-  --border: rgba(255,255,255,0.1);
-  --card: rgba(255,255,255,0.06);
+  --border: rgba(255, 255, 255, 0.1);
+  --card: rgba(255, 0, 0, 0.06);
 }
 
-/* ========== BASE ========== */
 body {
   margin: 0;
   font-family: Inter, sans-serif;
@@ -21,18 +20,21 @@ body {
 a { text-decoration: none; color: inherit; }
 .container { max-width: 1200px; margin: 0 auto; padding: 0 1rem; }
 
-/* ========== NAVBAR ========== */
 header {
-  background: rgba(11,13,23,.65);
+  background: rgba(255, 255, 255, 0.65);
   position: sticky;
   top: 0;
+  height: 100px;
+    
 }
+
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 1rem 0;
 }
+
 nav ul {
   display: flex;
   gap: 1rem;
@@ -50,7 +52,10 @@ nav a.active, nav a:hover {
   color: var(--text);
 }
 
-/* ========== HERO ========== */
+img{
+
+}
+
 .hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -89,7 +94,6 @@ nav a.active, nav a:hover {
   position: absolute;
 }
 
-/* ========== FEATURES ========== */
 .features {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -110,9 +114,13 @@ nav a.active, nav a:hover {
   border-radius: 8px;
   font-weight: bold;
 }
+
+.align-right{
+ text-align: right;
+}
+
 .muted { color: var(--muted); }
 
-/* ========== CONTACT ========== */
 .contact-card {
   background: var(--card);
   padding: 1.5rem;
@@ -132,7 +140,6 @@ nav a.active, nav a:hover {
   color: var(--text);
 }
 
-/* ========== FOOTER ========== */
 footer {
   border-top: 1px solid var(--border);
   margin-top: 2rem;

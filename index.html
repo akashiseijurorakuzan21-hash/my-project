@@ -3,18 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Bliss — HTML & CSS Only</title>
-  <meta name="description" content="A Bliss-style digital agency landing page recreated with only HTML and CSS (no JavaScript).">
-
-  <!-- Link to external CSS file -->
+  <title>My Project</title>
+  <meta name="description" >
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Header / Nav -->
   <header>
     <div class="container nav">
       <div class="brand"><span class="logo"></span> Bliss</div>
-      <input type="checkbox" id="menu-toggle" aria-label="Open menu" />
       <label for="menu-toggle" class="menu-btn"><span></span></label>
       <nav>
         <ul>
@@ -23,17 +19,17 @@
           <li><a href="#services">Services</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#pricing">Pricing</a></li>
+           <li><a href="#team">team</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <!-- Hero -->
   <main id="home" class="container hero">
     <div>
       <span class="eyebrow">Award-winning Digital Agency</span>
-      <h1>We build products that feel <span class="highlight">effortless</span>.</h1>
+      <h1>problem solver expert designer <span class="highlight">team</span>.</h1>
       <p class="lead">Strategy, design, and front-end craftsmanship—delivered without the complexity.</p>
       <div class="cta">
         <a class="btn btn-primary" href="#contact">Start a Project</a>
@@ -46,14 +42,13 @@
     </div>
   </main>
 
-  <!-- Features -->
   <section id="about">
     <div class="container">
       <h2>Design, ship, and scale your next big thing</h2>
       <div class="grid features">
         <article class="card">
           <div class="icon">UI</div>
-          <h3>Interface Design</h3>
+          <h3>Interface Design</h3>          
           <p class="muted">From wireframes to polished UI kits and systems built for speed.</p>
         </article>
         <article class="card">
@@ -65,12 +60,29 @@
           <div class="icon">BR</div>
           <h3>Branding</h3>
           <p class="muted">Identity and visual language that tells your story and moves users to action.</p>
+          
         </article>
       </div>
     </div>
   </section>
+       
 
-  <!-- Contact -->
+  <section id="services">
+     <img src="/assets/images/profile picture.jpeg" >
+    <div class="container services">
+           <h3 class="align-right">which services we provide</h3>
+           <p class="align-right">Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="container services">
+           <h3 class="align-right">what i need to start a  design</h3>
+           <p class="align-right">Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="container services">
+           <h3 class="align-right">what is our design process</h3>
+           <p class="align-right">Lorem ipsum dolor sit amet.</p>
+    </div>
+  </section>
+
   <section id="contact">
     <div class="container contact">
       <div class="contact-card">
@@ -93,8 +105,7 @@
       </div>
     </div>
   </section>
-
-  <!-- Footer -->
+  
   <footer>
     <div class="container foot">
       <div class="brand"><span class="logo"></span> Bliss</div>
